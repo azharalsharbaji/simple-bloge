@@ -1,81 +1,61 @@
 *{
-  margin: 0;
-  padding: 0;
-}
-
-body
-{
-  background-color: #F2F2F2;
-
-}
-
-header 
-{
-  background-color: #ffffff;
-  padding: 2%;
-  margin: 10px 10px;
-  text-align: center;
-  color: rgb(253, 92, 28);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 20px;
-}
-.container
-{
-  width: 760px;
-  margin: 0 auto;
-}
-article
-{
-  background-color: white;
-  margin: 20px 10px;
-  padding: 20px;
-}
-
-div.container h2
-{
-  font-size: 35px; 
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-div.container small
-{
-  font-size: 12px;
-  color: #21cabc;
-  margin-left: 25%;
-}
-section.articl-head
-{
-   border-bottom: 2px solid #F2F2F2;
-}
-section.article-content 
-{
-  border-bottom: 2px solid #F2F2F2;
-  padding: 20px;
-}
-section.article-foot span
-{
-  display: block;
-  font-size: 10px;
-  padding: 5px;
-  margin-left: 2%;
-}
-section.article-foot::first-line
-{
-  color: #ff6348;
-}
-section.article-foot:last-child
-{
-  color: #21cabc;
-
-}
-footer.foot
-{
-  text-align: center;
-  color: #af7c73;
-    margin: 2%;
-}
-footer.foot span
-{
-  color: #82b8b3;
-}
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #F2F2F2;
+  }
+  .container{
+     width: 760px;
+    margin: 0 auto;
+  }
+  h1{
+    font-family:  Helvetica, Arial, sans-serif;
+    text-align: center;
+    background:white;
+    margin: 0 14px 14px;
+    padding: 16px;
+    color: #1A71B8;
+    font-size: 36px;
+  }
+  article{
+    background-color: white;
+    margin: 20px 10px;
+  }
+  h2{
+    font-family: Helvetica, Arial, sans-serif;;
+    font-size: 27px;
+  }
+  small{
+    font-family:  Georgia, Times, serif;
+    display: block;
+    font-size: 13px;
+    color:#00CAC1;
+  }
+  p{
+    font-family: Georgia, Times, serif;
+    margin: 10px;
+    padding: 10px;
+  }
+  .articel-head{
+    padding: 10px 14px;
+    border-bottom: solid 1px #eee;
+  }
+  .article-content
+  {
+    font-size: 18px;
+    padding: 10px 16px;
+    border-bottom: solid 1px #eee;
+  }
+  .article-foot{
+     padding: 10px 14px;
+     font-size: 10px;
+  }
+  footer{
+    text-align: center;
+    color: #B1C4DF;
+  }
+  .fotter-paragraph{
+    margin: 5px;
+    padding: 2px 20px;
+  }
